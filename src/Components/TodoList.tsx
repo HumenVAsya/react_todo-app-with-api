@@ -1,7 +1,6 @@
 import { Todo } from '../types/Todo';
 import { TodoItem } from './TodoItem';
 
-
 type Props = {
   mainTodoList: Todo[];
   updateToggle: (toggleTodo: Todo) => void;
